@@ -3,6 +3,7 @@ import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
+// import cmpLogo from "./assets/img/logo.jpg"
 
 class App extends React.Component {
   render = () => {
@@ -10,10 +11,11 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            {/* <a href="."><img src={cmpLogo} alt="Logo" width="175px" height="150px" /></a> */}
+            <h3>Shadev Infotech</h3>
           </div>
           <div className="social">
-            <a href="#" title="Facebook" target="_blank" >
+            <a href="https://www.facebook.com/ShadevInfotech" title="Facebook" target="_blank" >
               <IconFacebook className="icon" />
             </a>
             <a href="#" title="Twitter" target="_blank" >
@@ -34,7 +36,7 @@ class App extends React.Component {
           </a>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="#" target="_blank" >Company-Name</a> </span>
+          <span>made by <a className="underlined" href="#" target="_blank" >Shadev Infotech</a> </span>
         </div>
       </div>
     );
