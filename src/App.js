@@ -31,7 +31,7 @@ class App extends React.Component {
             <h1>Get ready for the change.</h1>
             <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
           </div>
-          <a href="mailto:email@example.com">
+          <a href="mailto:shadev2012@gmail.com">
             <div className="cta">Send us an email</div>
           </a>
         </div>
